@@ -11,3 +11,5 @@ package cgo
 // Use full struct definitions in the cgo preamble if necessary.
 
 // Leverage runtime/cgo.Handle for safe pointer passing.
+
+// • Design a safe mechanism for registering and handling callbacks from the C layer, ensuring proper concurrency (possibly using channels or sync primitives).
